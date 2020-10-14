@@ -31,7 +31,7 @@
             <a href="#about">About</a>
             <a href="#event">Event</a>
             <a href="#menu-list">Menu</a>
-            <a href="#contact">Book a table</a>
+            <a href="#contact">Contact</a>
           </div>
           <!-- Use any element to open the sidenav -->
           <span onclick="openNav()" class="pull-right menu-icon">☰</span>
@@ -175,8 +175,8 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <h1 class="header-h">Book Your order</h1>
-          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+          <!-- <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p> -->
         </div>
       </div>
       <div class="row msg-row">
@@ -203,7 +203,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 col-sm-8">
+        <div class="col-md-8 col-sm-8" style="display: none;">
           <form action="" method="post" role="form" class="contactForm">
             <div id="sendmessage">Your booking request has been sent. Thank you!</div>
             <div id="errormessage"></div>
@@ -214,12 +214,6 @@
               </div>
 
             </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
-                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
             <div class="col-md-6 col-sm-6 contact-form pad-form">
               <div class="form-group">
                 <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
@@ -228,19 +222,7 @@
             </div>
             <div class="col-md-6 col-sm-6 contact-form">
               <div class="form-group">
-                <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
                 <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required" data-msg="This field is required" />
                 <div class="validation"></div>
               </div>
             </div>
@@ -253,7 +235,7 @@
             </div>
             <div class="col-md-12 btnpad">
               <div class="contacts-btn-pad">
-                <button class="contacts-btn">Book Table</button>
+                <button class="contacts-btn">Book a order</button>
               </div>
             </div>
           </form>
@@ -269,9 +251,8 @@
         <div class="col-md-offset-3 col-md-6 text-center">
           <div class="widget">
             <h4 class="widget-title">Delicious</h4>
-            <address>324 Ellte Road<br>Delhi, DL 110013</address>
+            <address>Antop Hill, Wadala Mumbai</address>
             <div class="social-list">
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </div>
             <p class="copyright clear-float">
