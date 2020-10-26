@@ -145,8 +145,16 @@
               // Crab
               $arr["crab"][] = array("head" => "Live Crab Mud", "price" => 400, "desc" => "8/10 Pcs");
 
-
-
+              // Fish
+              $arr["fish"][] = array("head" => "Promfret", "price" => 400, "desc" => "100/150 Gm");
+              $arr["fish"][] = array("head" => "Promfret", "price" => 800, "desc" => "200/300 Gm");
+              $arr["fish"][] = array("head" => "Promfret", "price" => 1000, "desc" => "300/400 Gm");
+              $arr["fish"][] = array("head" => "Bombay Duck", "price" => 130, "desc" => "1kg");
+              $arr["fish"][] = array("head" => "Croaker (Dhoma)", "price" => 120, "desc" => "1kg");
+              $arr["fish"][] = array("head" => "Ribbon (Bale)", "price" => 150, "desc" => "200/300 Gm");
+              $arr["fish"][] = array("head" => "King (Surmai)", "price" => 500, "desc" => "1kg");
+              $arr["fish"][] = array("head" => "Bangda (Mackerel)", "price" => 230, "desc" => "1kg");
+              $arr["fish"][] = array("head" => "Rawas", "price" => 500, "desc" => "1kg");
 
 
           ?>
