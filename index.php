@@ -134,7 +134,7 @@
               $arr["prawns"][] = array("head" => "Prawns", "price" => 230, "desc" => "60/80 Pcs");
               $arr["prawns"][] = array("head" => "Prawns", "price" => "250", "desc" => "Head On Upto 10kg / 5kg");
               $arr["prawns"][] = array("head" => "Prawns", "price" => "350", "desc" => "30/40 Pcs");
-              $arr["prawns"][] = array("head" => "Tiger", "price" => "760", "desc" => "Soft Local 10 Pcs");
+              $arr["prawns"][] = array("head" => "Tiger", "price" => "800", "desc" => "");
               $arr["prawns"][] = array("head" => "Tiger", "price" => "570", "desc" => "15/20 Pcs");
               $arr["prawns"][] = array("head" => "Tiger", "price" => "900", "desc" => "5/7 Pcs");
 
@@ -146,12 +146,12 @@
               $arr["crab"][] = array("head" => "Live Crab Mud", "price" => 400, "desc" => "8/10 Pcs");
 
               // Fish
-              $arr["fish"][] = array("head" => "Promfret", "price" => 400, "desc" => "100/150 Gm");
+              $arr["fish"][] = array("head" => "Promfret", "price" => 450, "desc" => "100/150 Gm");
               $arr["fish"][] = array("head" => "Promfret", "price" => 800, "desc" => "200/300 Gm");
               $arr["fish"][] = array("head" => "Promfret", "price" => 1000, "desc" => "300/400 Gm");
-              $arr["fish"][] = array("head" => "Bombay Duck", "price" => 130, "desc" => "1kg");
-              $arr["fish"][] = array("head" => "Croaker (Dhoma)", "price" => 120, "desc" => "1kg");
-              $arr["fish"][] = array("head" => "Ribbon (Bale)", "price" => 150, "desc" => "200/300 Gm");
+              $arr["fish"][] = array("head" => "Bombay Duck", "price" => 150, "desc" => "1kg");
+              $arr["fish"][] = array("head" => "Croaker (Dhoma)", "price" => 130, "desc" => "1kg");
+              $arr["fish"][] = array("head" => "Ribbon (Bale)", "price" => 180, "desc" => "200/300 Gm");
               $arr["fish"][] = array("head" => "King (Surmai)", "price" => 500, "desc" => "1kg");
               $arr["fish"][] = array("head" => "Bangda (Mackerel)", "price" => 230, "desc" => "1kg");
               $arr["fish"][] = array("head" => "Rawas", "price" => 500, "desc" => "1kg");
@@ -212,7 +212,7 @@
             </div>
             <div class="media-body">
               <h4 class="dark-blue regular">Phone Numbers</h4>
-              <p class="light-blue regular alt-p">+91 77100 81786 - <span class="contacts-sp">Phone Booking</span></p>
+              <p class="light-blue regular alt-p">+91 77100 81786 / 8655525566 - <span class="contacts-sp">Phone Booking</span></p>
             </div>
           </div>
           <div class="media-2">
