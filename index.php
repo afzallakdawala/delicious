@@ -129,8 +129,10 @@
         <div class="col-md-12  text-center" id="menu-flters">
           <?php
               $arr = array();
-              $arr["prawns"][] = array("price" => 20, "desc" => "15 / 20 Pcs");
-              $arr["prawns"][] = array("price" => 40, "desc" => "15 / 20 Pcs");
+
+              // Prawns
+              $arr["prawns"][] = array("price" => 230, "desc" => "60/80 Pcs");
+              $arr["prawns"][] = array("price" => "250", "desc" => "Head On Upto 10kg / 5kg");
 
           ?>
           <ul>
