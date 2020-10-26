@@ -131,8 +131,23 @@
               $arr = array();
 
               // Prawns
-              $arr["prawns"][] = array("price" => 230, "desc" => "60/80 Pcs");
-              $arr["prawns"][] = array("price" => "250", "desc" => "Head On Upto 10kg / 5kg");
+              $arr["prawns"][] = array("head" => "Prawns", "price" => 230, "desc" => "60/80 Pcs");
+              $arr["prawns"][] = array("head" => "Prawns", "price" => "250", "desc" => "Head On Upto 10kg / 5kg");
+              $arr["prawns"][] = array("head" => "Prawns", "price" => "350", "desc" => "30/40 Pcs");
+              $arr["prawns"][] = array("head" => "Tiger", "price" => "760", "desc" => "Soft Local 10 Pcs");
+              $arr["prawns"][] = array("head" => "Tiger", "price" => "570", "desc" => "15/20 Pcs");
+              $arr["prawns"][] = array("head" => "Tiger", "price" => "900", "desc" => "5/7 Pcs");
+
+              // Lobster
+              $arr["lobster"][] = array("head" => "Lobster", "price" => 1000, "desc" => "300 gm");
+              $arr["lobster"][] = array("head" => "Baby Lobster", "price" => 400, "desc" => "5/10 Pcs");
+
+              // Crab
+              $arr["crab"][] = array("head" => "Live Crab Mud", "price" => 400, "desc" => "8/10 Pcs");
+
+
+
+
 
           ?>
           <ul>
@@ -155,7 +170,7 @@
                 
                 <div class="<?= $key;?> menu-restaurant">
                   <span class="clearfix">
-                    <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Tiger</a>
+                    <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg"><?=$value["head"]; ?></a>
                     <span style="left: 166px; right: 44px;" class="menu-line"></span>
                     <span class="menu-price"><?=$value["price"]; ?></span>
                   </span>
